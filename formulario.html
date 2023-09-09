@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
     <h1>Formulario de Registro</h1>
     <form action="" method="get" target="_blank">
         <label for="nombre">Nombre: </label>
-        <input type="text" name= "nombre" maxlength="50">
+        <input type="text" name="nombre" maxlength="50">
         <br></br>
         <label for="apellido">Apellido: </label>
         <input type="text" name="apellido" maxlength="50">
@@ -39,8 +41,59 @@
         <br></br>
         <input type="checkbox" name="declaro" value="si"> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos
         <br></br>
-        <input type="submit" name="envio" value="Enviar"/>
+        <input type="submit" name="envio" value="Enviar" />
     </form>
 
 </body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="" method="get" target="_blank">
+        <label for="nombre">Nombre: </label>
+        <input type="text" name="nombre" maxlength="50">
+        <br></br>
+        <label for="apellido">Apellido: </label>
+        <input type="text" name="apellido" maxlength="50">
+        <br></br>
+        <label for="apellido">Domicilio: </label>
+        <input type="text" name="apellido" maxlength="50">
+        <br></br>
+        <label for="sexo">Sexo: </label>
+        <input type="radio" name="gender" value="si" checked>Hombre
+        <input type="radio" name="gender" value="no">Mujer
+        <br></br>
+        <label for="correo">Correo: </label>
+        <input type="email" name="e-mail ">
+        <br></br>
+        <label for="poblacion">Población: </label>
+        <select name="poblacion">
+            <option value="Salta">Salta</option>
+            <option value="Jujuy">Jujuy</option>
+            <option value="Formosa">Formosa</option>
+            <option value="Tucuman">Tucuman</option>
+        </select>
+        <br></br>
+        <p>Descripción: <textarea name="descripcion" rows="5" cols="60">Introduce aquí tu descripción</textarea></p>
+        <br></br>
+        <input type="checkbox" name="deseo1" value="" checked="checked"> Deseo recibir informacion sobre novedades y ofertas
+        <br></br>
+        <input type="checkbox" name="declaro" value=""> Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre proteccion de datos
+        <br></br>
+        <input type="submit" name="envio" value="Enviar" />
+    </form>
+
+</body>
+
 </html>
